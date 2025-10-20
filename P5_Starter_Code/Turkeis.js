@@ -1,0 +1,12 @@
+//Class
+
+class Turkeis{
+	
+	constructor(){
+	
+	}
+
+
+
+
+}
