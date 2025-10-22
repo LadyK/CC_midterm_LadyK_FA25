@@ -8,6 +8,7 @@ class Turkey{
 	}
 
 	display(){
+		rect(this.position.x, this.position.y, 50, 50);
 
 	}
 
