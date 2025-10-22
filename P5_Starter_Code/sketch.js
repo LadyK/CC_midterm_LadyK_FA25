@@ -1,3 +1,5 @@
+let t;
+
 function setup() {
  // put setup code here
   createCanvas(900, 900); // size() 
@@ -19,4 +21,11 @@ function draw() {
     rect(0, 300, 60, 60);
   
   
+}
+
+function mousePressed(){
+
+    let v = createVector(mouseX, mouseY);
+    //t = new Turkey(createVector(mouseX, mouseY));
+    t = new Turkey(v);
 }
